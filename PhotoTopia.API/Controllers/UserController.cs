@@ -38,13 +38,13 @@ namespace PhotoVoir.API.Controllers
 
         [HttpPost(UserRoutes.UpdateAll)]
         public async Task<IActionResult> Update()
-        {
+{
             return View();
         }
 
         [HttpPost(UserRoutes.Delete)]
         public async Task<IActionResult> DeleteAll()
-        {
+    {
             return View();
         }
     }

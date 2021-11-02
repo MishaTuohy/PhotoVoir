@@ -11,7 +11,7 @@ namespace PhotoVoir.API.Controllers
     public class ProductController : BaseController
     {
         public ProductController(IMediator mediator, IMapper mapper) : base(mediator, mapper)
-        {
+{
         }
         public IActionResult Index()
         {
