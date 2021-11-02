@@ -2,7 +2,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using PhotoVoir.API.Models.Requests.User;
-using PhotoVoir.Application.Common.Apiroutes;
+using PhotoVoir.Application.Common.Apiroutes.Api;
 using System;
 using System.Collections.Generic;
 using System.Linq;

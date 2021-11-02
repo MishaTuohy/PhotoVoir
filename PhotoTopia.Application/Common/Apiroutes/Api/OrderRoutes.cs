@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PhotoVoir.Application.Common.Apiroutes
+﻿namespace PhotoVoir.Application.Common.Apiroutes.Api
 {
     public static class OrderRoutes
     {

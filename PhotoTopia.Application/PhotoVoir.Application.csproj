@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Common\Apiroutes\Web\" />
     <Folder Include="Features\User\Commands\CreateUser\" />
     <Folder Include="Features\User\Commands\DeleteUser\" />
     <Folder Include="Features\User\Commands\UpdateUser\" />

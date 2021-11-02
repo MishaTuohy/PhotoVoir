@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PhotoVoir.Application.Common.Apiroutes
+﻿namespace PhotoVoir.Application.Common.Apiroutes.Api
 {
-    public static class ProductRoutes
+    public static class UserRoutes
     {
         // BASE
-        public const string Base = "api/product";
+        public const string Base = "api/user";
 
         // GET REQUESTS
         public const string GetById = Base + "/id={id}";

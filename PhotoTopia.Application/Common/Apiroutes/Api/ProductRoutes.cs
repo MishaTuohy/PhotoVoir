@@ -1,9 +1,9 @@
-﻿namespace PhotoVoir.Application.Common.Apiroutes
+﻿namespace PhotoVoir.Application.Common.Apiroutes.Api
 {
-    public static class UserRoutes
+    public static class ProductRoutes
     {
         // BASE
-        public const string Base = "api/user";
+        public const string Base = "api/product";
 
         // GET REQUESTS
         public const string GetById = Base + "/id={id}";
