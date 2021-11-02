@@ -10,4 +10,8 @@
     <Folder Include="Persistence\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PhotoTopia.Application\PhotoVoir.Application.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -10,4 +10,8 @@
     <Folder Include="Views\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PhotoTopia.Infrastructure\PhotoVoir.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

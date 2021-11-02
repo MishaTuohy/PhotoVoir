@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\User\Commands\CreateUser\" />
+    <Folder Include="Features\User\Commands\DeleteUser\" />
+    <Folder Include="Features\User\Commands\UpdateUser\" />
+    <Folder Include="Features\User\Queries\GetAllUsers\" />
+    <Folder Include="Features\User\Queries\GetUserByEmail\" />
+    <Folder Include="Features\User\Queries\GetUserById\" />
+    <Folder Include="Features\User\Queries\GetUserByPhoneNumber\" />
+    <Folder Include="Features\User\Queries\GetUserByUserName\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PhotoTopia.Domain\PhotoVoir.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
