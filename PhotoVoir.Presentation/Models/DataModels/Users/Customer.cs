@@ -1,8 +1,9 @@
-﻿using System;
+﻿using PhotoVoir.Presentation.Models.DataModels.Users.Details;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace PhotoVoir.Domain.Entities.Users
+namespace PhotoVoir.Presentation.Models.DataModels.Users
 {
     public class Customer : User
     {

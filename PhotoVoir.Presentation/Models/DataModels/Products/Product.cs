@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PhotoVoir.Domain.Entities.Products
+namespace PhotoVoir.Presentation.Models.DataModels.Products
 {
     public class Product
     {

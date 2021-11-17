@@ -24,7 +24,6 @@ namespace PhotoVoir.Presentation.Controllers
             return View();
         }
 
-        [Authorize]
         public IActionResult Privacy()
         {
             return View();

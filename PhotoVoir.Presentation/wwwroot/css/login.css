@@ -71,7 +71,7 @@
         color: #919aa3;
     }
 
-    .login-card .form-control::-ms-input-placeholder {
+    .login-card .form-control :-ms-input-placeholder {
         color: #919aa3;
     }
 
@@ -139,6 +139,9 @@
     color: #fff;
     margin-bottom: 14px; }
 
+.form-gap {
+    padding-top: 70px;
+}
 /*# sourceMappingURL=login.css.map */
 
 
