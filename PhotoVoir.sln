@@ -5,13 +5,9 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoVoir.API", "PhotoTopia.API\PhotoVoir.API.csproj", "{FF6A2E79-68E1-40D4-9DBC-06AEDE73B77B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoVoir.Application", "PhotoTopia.Application\PhotoVoir.Application.csproj", "{1E45A88A-0F9C-44FA-8457-271BC88A8FDB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoVoir.Infrastructure", "PhotoTopia.Infrastructure\PhotoVoir.Infrastructure.csproj", "{4C44899E-1F01-413B-A7E6-321D0EE67339}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoVoir.Domain", "PhotoTopia.Domain\PhotoVoir.Domain.csproj", "{4BC05A19-403C-4173-9C51-760525519790}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoVoir.Presentation", "PhotoVoir.Presentation\PhotoVoir.Presentation.csproj", "{E018730A-E75F-4EA4-91B5-FEE5C26C1933}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoVoir.Presentation", "PhotoVoir.Presentation\PhotoVoir.Presentation.csproj", "{E018730A-E75F-4EA4-91B5-FEE5C26C1933}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,14 +19,6 @@ Global
 		{FF6A2E79-68E1-40D4-9DBC-06AEDE73B77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF6A2E79-68E1-40D4-9DBC-06AEDE73B77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF6A2E79-68E1-40D4-9DBC-06AEDE73B77B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1E45A88A-0F9C-44FA-8457-271BC88A8FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E45A88A-0F9C-44FA-8457-271BC88A8FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E45A88A-0F9C-44FA-8457-271BC88A8FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E45A88A-0F9C-44FA-8457-271BC88A8FDB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C44899E-1F01-413B-A7E6-321D0EE67339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C44899E-1F01-413B-A7E6-321D0EE67339}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C44899E-1F01-413B-A7E6-321D0EE67339}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C44899E-1F01-413B-A7E6-321D0EE67339}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4BC05A19-403C-4173-9C51-760525519790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4BC05A19-403C-4173-9C51-760525519790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BC05A19-403C-4173-9C51-760525519790}.Release|Any CPU.ActiveCfg = Release|Any CPU
