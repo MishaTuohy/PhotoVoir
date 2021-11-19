@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace PhotoVoir.Domain.Entities.Orders
+namespace PhotoVoir.Domain.Entities.Products
 {
-    public class OrderStatus
+    public class ProductInfo
     {
         [Key]
         public Guid Id { get; set; }
-        public string OrderStatusCode { get; set; }
-        public string OrderStatusDescription { get; set; }
+        public Product ProductId { get; set; }
+        public int Quantity { get; set; }
     }
 }

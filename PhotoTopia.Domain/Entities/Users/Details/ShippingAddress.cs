@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace PhotoVoir.Domain.Entities.Users
 {
     public class ShippingAddress
     {
-        public Guid ShippingAddressId { get; set; }
+        [Key]
+        public Guid Id { get; set; }
         public string AddressLine1 { get; set; }
         public string AddressLine2 { get; set; }
         public string Town_City { get; set; }
