@@ -8,11 +8,12 @@ namespace PhotoVoir.Domain.Entities.Users.Photographer
 {
     public class Photographer
     {
-        [Key] 
-        public Guid Id { get; set; }
+        [Key]
+        public int Id { get; set; }
         public string UserName { get; set; }
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
+        public string Password { get; set; }
         public ShippingAddress ShippingAddress { get; set; }
         public List<Product> Products { get; set; }
     }
