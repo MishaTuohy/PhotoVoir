@@ -15,8 +15,4 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\PhotoTopia.Domain\PhotoVoir.Domain.csproj" />
-  </ItemGroup>
-
 </Project>
