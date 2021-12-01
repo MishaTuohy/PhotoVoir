@@ -8,10 +8,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Photovoir.Data.User;
 using Photovoir.Extensions;
-using Photovoir.Models;
+using Photovoir.Interfaces;
 using Photovoir.Models.Manage;
-using Photovoir.Services;
 
 namespace Photovoir.Controllers
 {

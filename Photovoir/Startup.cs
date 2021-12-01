@@ -4,9 +4,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Photovoir.Data;
-using Photovoir.Models;
+using Photovoir.Data.User;
+using Photovoir.Interfaces;
 using Photovoir.Services;
+using Photovoir.Services.Stores;
 
 namespace Photovoir
 {
