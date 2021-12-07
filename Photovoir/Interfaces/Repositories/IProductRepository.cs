@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Photovoir.Interfaces
 {
-    interface IProductRepository : IRepository<Product>
+    public interface IProductRepository : IRepository<Product>
     {
     }
 }
