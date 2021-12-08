@@ -174,7 +174,7 @@ namespace Photovoir.Services.Persistence.Repositories.Products
                 catch (Exception ex)
                 {
                     trans.Rollback();
-                    _logger.LogError(ex, "Failed to update PasswordHash");
+                    _logger.LogError(ex, "Failed to update Product Name");
                     throw;
                 }
             }
@@ -203,7 +203,7 @@ namespace Photovoir.Services.Persistence.Repositories.Products
                 catch (Exception ex)
                 {
                     trans.Rollback();
-                    _logger.LogError(ex, "Failed to update PasswordHash");
+                    _logger.LogError(ex, "Failed to update Product Price");
                     throw;
                 }
             }
@@ -232,7 +232,7 @@ namespace Photovoir.Services.Persistence.Repositories.Products
                 catch (Exception ex)
                 {
                     trans.Rollback();
-                    _logger.LogError(ex, "Failed to update PasswordHash");
+                    _logger.LogError(ex, "Failed to update Product Tags");
                     throw;
                 }
             }
@@ -261,7 +261,7 @@ namespace Photovoir.Services.Persistence.Repositories.Products
                 catch (Exception ex)
                 {
                     trans.Rollback();
-                    _logger.LogError(ex, "Failed to update PasswordHash");
+                    _logger.LogError(ex, "Failed to update Product Description");
                     throw;
                 }
             }

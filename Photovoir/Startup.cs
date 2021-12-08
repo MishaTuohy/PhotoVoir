@@ -4,9 +4,14 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Photovoir.Data;
+using Photovoir.Data.DataAccessObjects;
 using Photovoir.Data.User;
 using Photovoir.Interfaces;
 using Photovoir.Services;
+using Photovoir.Services.Persistence.Helper;
+using Photovoir.Services.Persistence.Repositories.Orders;
+using Photovoir.Services.Persistence.Repositories.Products;
 using Photovoir.Services.Stores;
 
 namespace Photovoir
@@ -23,12 +28,28 @@ namespace Photovoir
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            // User + role Stores
             services.AddTransient<IUserStore<ApplicationUser>, UserStore>();
             services.AddTransient<IRoleStore<ApplicationRole>, RoleStore>();
 
+            // Data Access Objects
+            services.AddTransient<IProductDao, ProductDao>();
+            services.AddTransient<IOrderDao, OrderDao>();
+
+            // Repositories
+            services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IOrderRepository, OrderRepository>();
+
+            // Helpers
+            services.AddTransient<ISqlHelper, SqlHelper>();
+            services.AddTransient<ITransaction, Transaction>();
+
+            // Identity
             services.AddIdentity<ApplicationUser, ApplicationRole>()
                 .AddDefaultTokenProviders();
 
+            // Services
             services.AddTransient<IEmailSender, EmailSender>();
         }
 
