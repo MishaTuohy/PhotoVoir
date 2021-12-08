@@ -7,5 +7,10 @@ namespace Photovoir.Interfaces
 {
     public interface IOrderDao
     {
+        string InsertSql();
+        string DeleteSql();
+        string GetAllSql();
+        string GetByIdSql();
+        string UpdateSql();
     }
 }

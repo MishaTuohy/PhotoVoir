@@ -7,5 +7,14 @@ namespace Photovoir.Interfaces
 {
     public interface IProductDao
     {
+        string InsertSql();
+        string DeleteSql();
+        string GetAllSql();
+        string GetByIdSql();
+        string UpdateSql();
+        string UpdateNameSql();
+        string UpdatePriceSql();
+        string UpdateTagsSql();
+        string UpdateDescriptionSql();
     }
 }
